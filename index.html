@@ -220,7 +220,7 @@
         method: 'POST',
         mode: 'no-cors',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nome: nome, whatsapp: whatsapp, cidade: cidade, timestamp: new Date().toISOString() })
+        body: JSON.stringify({ nome: nome, whatsapp: whatsapp, cidade: cidade, optin: optin, timestamp: new Date().toISOString() })
       });
 
       window.location.href = WHATSAPP_LINK;
